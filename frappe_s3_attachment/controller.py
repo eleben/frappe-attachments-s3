@@ -11,6 +11,8 @@ import boto3
 from botocore.client import Config
 from botocore.exceptions import ClientError
 
+from collections.abc import Mapping
+
 import frappe
 
 
